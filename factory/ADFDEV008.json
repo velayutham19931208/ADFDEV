@@ -1,0 +1,9 @@
+{
+	"name": "ADFDEV008",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "628b6602-531a-4e71-88b8-d551be5f77ab",
+		"tenantId": "17dcec91-66ec-4c4b-a988-473694df546c"
+	}
+}
