@@ -1,0 +1,17 @@
+{
+	"name": "ls_bsdev",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_KeyVault_dev",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sec-dev-connection-string"
+			}
+		}
+	}
+}
